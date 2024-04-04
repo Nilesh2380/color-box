@@ -17,7 +17,6 @@ body{
     align-items: center;
     border-radius: 20px;
     font-size: 30px;
-    color: white;
 }
 
 .small-btn{
@@ -29,29 +28,9 @@ body{
     font-size: 30px;
     border: 2px  solid black;
     border-radius: 15px;
+    transition: transform 0.3s;
  }
-
- .red:hover{
-    background-color: red;
- }
- .yellow:hover{
-    background-color:yellow;
- }
- .blue:hover{
-    background-color: blue;
- }
- .green:hover{
-    background-color:green;
- }
- .purple:hover{
-    background-color:purple;
- }
- .orange:hover{
-    background-color:orange;
- }
- .pink:hover{
-    background-color: pink;
- }
- .cyan:hover{
-    background-color:cyan;
- }
+.small-btn:hover{
+   transform: scale(1.1);
+   background-color: grey;
+}
